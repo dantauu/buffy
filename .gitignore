@@ -1,9 +1,16 @@
-# dependencies (bun install)
+
+# Common ignores
 node_modules
+dist
+build
+.vite
+
+# Build output
+apps/backend/dist
+apps/frontend/dist
 
 # output
 out
-dist
 *.tgz
 
 # code coverage
